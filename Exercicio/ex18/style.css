@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+  background-image: linear-gradient(to left, #12da86, #097548);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #030c08;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit;
+  text-indent: 25px;
+
+}
+
+h2 {
+  color: #030c08;
+  ;
+}
+
+h1#principal {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+  color: #15E68E;
+  background-color: #09663F;
+}
+
+.basico {
+  color: #15E68E;
+  font-weight: bolder;
+}
+
+.intermediario {
+  color: lightyellow;
+  font-weight: bolder;
+}
+
+.avancado {
+  color: lightcoral;
+  font-weight: bolder;
+}
+
+.destaque {
+  background-color: #030c0857;
+
+}

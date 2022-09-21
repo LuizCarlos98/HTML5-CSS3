@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* reset CSS*/
+* {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  background-color: burlywood;
+
+
+}
+
+.topo {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: overline;
+  font-style: italic;
+}
+
+.p1 {
+  font-family: 'Roboto Slab', serif;
+  text-align: start;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  padding: none;
+  margin: none;
+}
+
+body {
+  background-color: rgb(158, 238, 150);
+}
+
+.cabeça {
+  color: rgb(5, 49, 1);
+  font-family: 'Roboto Slab', serif;
+  font-style: oblique;
+}
+
+.corpo {
+  background-color: burlywood;
+}
+
+.cabeça2 {
+  color: rgb(134, 80, 8);
+  font-family: 'Roboto Slab', serif;
+  font-style: oblique;
+}

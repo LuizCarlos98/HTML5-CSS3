@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover</title>
+    <style>
+      body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+      }
+
+      div > p:hover {
+        cursor: pointer;
+      }
+
+      div > ul {
+        display: none;
+      }
+      div:hover > ul {
+        display: block;
+        background-color: none;
+        color: aliceblue;
+        width: 147px;
+        height: 85px;
+        color: rgb(56, 114, 114);
+        text-shadow: 5px 5px 20px black;
+        display: contents;
+      }
+
+      div:hover {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+      <p>Menu:</p>
+      <ul type="none">
+        <a href="#">
+          <li>Seda</li>
+        </a>
+        <a href="#">
+          <li>Piteira</li>
+        </a>
+        <a href="#">
+          <li>Tabaco</li>
+        </a>
+        <a href="#">
+          <li>Isqueiro</li>
+        </a>
+      </ul>
+    </div>
+  </body>
+</html>
