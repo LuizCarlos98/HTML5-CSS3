@@ -7,15 +7,17 @@
     <title>Teste de fundo</title>
     <style>
       body {
-        background-image: url(img/wallpaper002.jpg);
-        background-position: left center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        /*shorthand-image
+        color > image > position > repeat > [size] > attachment
+        */
+
+        background: black url(img/wallpaper002.jpg) left center no-repeat fixed;
       }
       main {
         background-color: white;
-        width: 400px;
+        width: 500px;
         padding: 10px;
+        max-width: 400px;
         text-align: center;
         margin: auto;
         border-radius: 10px;
